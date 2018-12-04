@@ -56,7 +56,7 @@ if number > 0:
 	print ("Hexadecimal: %s" % (string1))
 	print ("Converted in %s seconds" % ((time.time() - start)))
 elif number == 0:
-	print (0)
+	print ("Hedxadecimal: 0")
 	print ("Converted in %s seconds" % ((time.time() - start)))
 else:
 	print ("Entered value was not a positive integer.")
